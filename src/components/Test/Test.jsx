@@ -1,10 +1,12 @@
-import React from "react"
+import React from "react";
 
 export default class Test extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
-    return <div>Test.jsx is running</div>
+    return (
+      <div>
+        Test.jsx is running
+        <p>text: {this.props.text}</p>
+      </div>
+    );
   }
 }

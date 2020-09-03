@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       App.jsx soooo
       <div>
-        <Test></Test>
+        <Test text="Yo guys" />
       </div>
       <div>
         The Counter:
-        <Counter></Counter>
+        <Counter />
       </div>
     </div>
   );
